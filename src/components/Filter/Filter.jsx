@@ -21,6 +21,7 @@ const Filter = ({ onFilterInput, value }) => {
 
 export default Filter;
 
+
 Filter.propTypes = {
   onFilterInput: PropTypes.func.isRequired,
   value: PropTypes.string.isRequired,
